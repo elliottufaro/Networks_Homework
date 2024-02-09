@@ -1,0 +1,35 @@
+Q7.1 Measuring Delays.
+
+1)
+--- 127.0.0.1 ping statistics ---
+11 packets transmitted, 11 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.145/0.236/0.491/0.089 ms
+
+When pinging my own computer there was an average RTT of 0.236ms which is considerably low in comparison to the other RTT's. This is because the packet is being handled internally by the OS and is looped back by the Network Layer. Because the packet never leaves the device and never has to be handled by the Link layer or the Physical layer the latency is extremely low.
+
+2 - 3)
+
+Wireless:
+--- cs.nyu.edu ping statistics ---
+13 packets transmitted, 13 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 2.988/12.659/40.945/12.231 ms
+
+Wired:
+--- cs.nyu.edu ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14024ms
+rtt min/avg/max/mdev = 7.952/8.153/8.986/0.234 ms
+
+When pinging cs.nyu.edu by way of a wireless connection there is a higher transmission delay than when compared to the wired connection. This is because wired connections offer a greater capacity. 
+
+4)
+--- 139.130.4.5 ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 264.152/334.369/704.683/104.362 ms
+
+Because Australia is so far away the propagation delay causes for a large amount of latency. 
+
+
+
+ 
+
+

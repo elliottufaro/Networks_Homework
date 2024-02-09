@@ -1,0 +1,13 @@
+Q7.2 Delays with traffic
+
+1)
+--- cs.nyu.edu ping statistics ---
+16 packets transmitted, 16 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 2.602/9.779/48.881/11.603 ms
+
+2)
+--- cs.nyu.edu ping statistics ---
+42 packets transmitted, 42 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 2.676/54.711/350.352/69.562 ms
+
+3)
