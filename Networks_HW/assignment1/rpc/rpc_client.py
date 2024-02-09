@@ -17,6 +17,9 @@ if len(sys.argv) == 4:
 server_address = sys.argv[1]
 server_port = int(sys.argv[2])
 
+print(server_address)
+print(server_port)
+
 # TODO: Create a datagram socket for the client
 
 # Repeat NUM_TRANSMISSIONS times
