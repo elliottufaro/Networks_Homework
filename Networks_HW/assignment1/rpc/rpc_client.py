@@ -4,6 +4,8 @@ import random
 
 NUM_TRANSMISSIONS = 10
 
+print("Hello World")
+
 if len(sys.argv) > 4 or len(sys.argv) < 3:
     print("Usage: python3 " + sys.argv[0] + " server_address server_port [random_seed]")
     sys.exit(1)
