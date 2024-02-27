@@ -1,0 +1,20 @@
+Q7.2 Delays with traffic
+
+1)
+--- cs.nyu.edu ping statistics ---
+22 packets transmitted, 22 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 28.678/36.824/54.153/7.084 ms
+
+2)
+--- cs.nyu.edu ping statistics ---
+28 packets transmitted, 28 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 23.793/75.462/281.954/76.031 ms
+
+3)
+--- cs.nyu.edu ping statistics ---
+23 packets transmitted, 23 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 25.435/33.136/49.862/5.812 ms
+
+The differences from latency between 1 and 2 has to do with the queuing delays added by the download of the large file. Downloading the file consumed a substantial amount of bandwidth causing the packet from the ping to cs.nyu.edu to wait in a queue at the router. The reason that the 3rd experiment had no effect was because it effectively managed the bandwidth preventing it from being over utilized by the download of the file, this effectively eliminated any noticeable queuing delay.
+
+

@@ -19,7 +19,7 @@ def print(*args, **kwargs):
 server_address = sys.argv[1]
 relay_port = int(sys.argv[2])
 
-print("client")
+
 
 # Create a socket for the sender
 tcp_client = socket(AF_INET, SOCK_STREAM)

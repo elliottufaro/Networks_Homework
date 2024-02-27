@@ -21,7 +21,7 @@ if len(sys.argv) != 2:
     sys.exit(1)
 port = int(sys.argv[1])
 
-print("server")
+
 
 
 # Create a TCP socket to listen on port for new connections
